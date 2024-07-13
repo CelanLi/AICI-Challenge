@@ -1,7 +1,7 @@
 import axios from "axios";
 import exp from "constants";
 
-const API =  "https://jsonplaceholder.typicode.com/users"
+export const API =  "https://jsonplaceholder.typicode.com/users"
 // create axios request instance
 const serviceAxios = axios.create({
     baseURL: API, // base request address
